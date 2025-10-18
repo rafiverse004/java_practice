@@ -6,7 +6,7 @@ public class task7_sailor
     {
         Scanner scanf = new Scanner (System.in);
 
-        System.out.println("Enter how much weight you have: ");
+        System.out.print("Enter how much weight you have: ");
         int weight = scanf.nextInt();
 
         int cannotbetaken = 0;
