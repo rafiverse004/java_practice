@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read an integer and check whether it is zero, even, or odd.
+*/
+
 import java.util.Scanner;
 public class task_05
 {

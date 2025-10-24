@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to declare variables of different types (int, double, String) and print their values.
+*/
+
 public class Variables_Example 
 {
     public static void main(String[] args)

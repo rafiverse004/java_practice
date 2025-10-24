@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to take two strings as input and print their concatenation in reverse order (second string followed by first string).
+*/
+
 import java.util.Scanner;
 
 public class task8_concatenating 

@@ -1,3 +1,10 @@
+/*
+Question:
+Write a Java program to divide a given number of chocolates among 3 friends 
+and find out how many each friend gets 
+and how many remain with you.
+*/
+
 import java.util.Scanner;
 
 public class task6_chocolate 

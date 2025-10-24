@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read two integers from the user and print their sum, product, and difference.
+*/
+
 import java.util.Scanner;
 public class task_01
 {

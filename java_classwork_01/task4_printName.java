@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to take a user's name as input and print it.
+*/
+
 import java.util.Scanner;
 
 public class task4_printName 

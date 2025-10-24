@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program that prints a number if it is a multiple of 2 or 5 but not both.
+*/
+
 import java.util.Scanner;
 public class task_06
 {

@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to check if a given integer is even. Print True if it is even, otherwise print False.
+*/
+
 import java.util.Scanner;
 
 public class task10_checknumber 

@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read the radius of a circle and calculate its area and circumference.
+*/
+
 import java.util.Scanner;
 public class task_02
 {

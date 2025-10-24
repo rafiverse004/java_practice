@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read two integers and print the absolute difference between them.
+*/
+
 import java.util.Scanner;
 public class task_04
 {

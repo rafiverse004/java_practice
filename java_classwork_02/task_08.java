@@ -1,3 +1,13 @@
+/*
+Question:
+Write a Java program to calculate the velocity of a car given the distance (in meters) and time (in seconds). 
+The program should convert distance to kilometers and time to hours, then calculate velocity in km/h.
+Based on the velocity, print:
+- "Too slow. Needs more changes." if velocity < 60 km/h
+- "Velocity is okay. The car is ready!" if velocity is between 60 and 90 km/h
+- "Too fast. Only a few changes should suffice." if velocity > 90 km/h
+*/
+
 import java.util.Scanner;
 public class task_08
 {

@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to take two integers as input and print the first number raised to the power of the second.
+*/
+
 import java.util.Scanner;
 
 public class task5_PowerCalculator 

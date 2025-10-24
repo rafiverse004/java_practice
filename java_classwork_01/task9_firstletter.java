@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read a word from the user and print its first character.
+*/
+
 import java.util.Scanner;
 
 public class task9_firstletter 

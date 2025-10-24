@@ -1,3 +1,11 @@
+/*
+Question:
+Write a Java program to convert a given number of seconds into hours, minutes, and seconds.
+Example: 
+Input: 3665 
+Output: Hours: 1 Minutes: 1 Seconds: 5
+*/
+
 import java.util.Scanner;
 public class task_07
 {

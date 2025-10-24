@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to find the maximum weight a sailor can carry in multiples of 4 kg, given the total weight they have.
+*/
+
 import java.util.Scanner;
 
 public class task7_sailor 

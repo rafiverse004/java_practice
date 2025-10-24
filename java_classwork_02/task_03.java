@@ -1,3 +1,8 @@
+/*
+Question:
+Write a Java program to read two integers and print which one is greater or if they are equal.
+*/
+
 import java.util.Scanner;
 public class task_03
 {
