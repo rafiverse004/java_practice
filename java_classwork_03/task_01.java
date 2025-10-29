@@ -51,9 +51,7 @@ public class task_01
         int quantity = scanf.nextInt();
 
         double numbers[] = new double[quantity];
-
         System.out.println("Enter " + quantity + " numbers: ");
-
         for (int i=0; i<quantity; i++)
         {
             numbers[i] = scanf.nextDouble();
