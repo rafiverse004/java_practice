@@ -21,16 +21,16 @@ public class task_01easy
         for (int i=0; i<quantity; i++)
         {
             int num = scanf.nextInt();
-            if(i==0)
+            if(num==0)
             {
                 max = num;
                 min = num;
             }
-            else if(i < num)
+            else if(num < max)
             {
                 max = num;
             }
-            else if(i > num)
+            else if(num > min)
             {
                 min = num;
             }
