@@ -7,9 +7,9 @@ public class MultiplicationGrid
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanf = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+        int num = scanf.nextInt();
 
         for (int i = 1; i <= num; i++)
         {
@@ -20,6 +20,6 @@ public class MultiplicationGrid
             System.out.println();
         }
 
-        sc.close();
+        scanf.close();
     }
 }
