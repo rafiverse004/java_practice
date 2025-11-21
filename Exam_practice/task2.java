@@ -1,10 +1,8 @@
 // Write a Java program that reads an integer and prints "True" if the number is even, otherwise, "False".
 
 import java.util.Scanner;
-public class task2
-{
-    public static void main(String[] args)
-    {
+public class task2 {
+    public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");

@@ -13,7 +13,7 @@ public class task12 {
         int vowel = 0;
         int consonant = 0;
 
-        for(int i=0; i<=str2.length()-1; i++) {
+        for(int i=0; i<str2.length(); i++) {
             char c = str2.charAt(i);
             if (c >= 'a' && c <= 'z') {
             if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {

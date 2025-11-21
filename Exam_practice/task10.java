@@ -2,10 +2,8 @@
 // N (length/column numbers) using incrementing numbers where M and N will be given as input.
 
 import java.util.Scanner;
-public class task10
-{
-    public static void main(String[] args)
-    {
+public class task10 {
+    public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
         System.out.print("Enter height of a rectangle: ");

@@ -15,10 +15,11 @@ public class task7 {
         // Series 1: 1 - 2 + 3 - 4 + ... ± n
         int sum1 = 0;
         for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 sum1 -= i;
-            else
+            } else {
                 sum1 += i;
+            }
         }
         System.out.println("Series 1 sum = " + sum1);
 
@@ -26,10 +27,11 @@ public class task7 {
         int sum2 = 0;
         int num1 = 12;
         for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 sum2 -= num1;
-            else
+            } else {
                 sum2 += num1;
+            }
             num1 += 10;
         }
         System.out.println("Series 2 sum = " + sum2);
@@ -38,10 +40,11 @@ public class task7 {
         int sum3 = 0;
         int num2 = 12;
         for (int i = 1; i <= n; i++) {
-            if (i % 2 == 0)
+            if (i % 2 == 0) {
                 sum3 -= num2;
-            else
+            } else {
                 sum3 += num2;
+            }
             num2 += 3;
         }
         System.out.println("Series 3 sum = " + sum3);

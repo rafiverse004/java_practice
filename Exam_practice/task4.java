@@ -2,10 +2,8 @@
 // The number of seconds is taken as input from the user.
 
 import java.util.Scanner;
-public class task4
-{
-    public static void main(String[] args)
-    {
+public class task4 {
+    public static void main(String[] args) {
         Scanner scanf = new Scanner(System.in);
 
         System.out.print("Enter seconds: ");
