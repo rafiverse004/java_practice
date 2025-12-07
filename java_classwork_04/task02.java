@@ -1,6 +1,5 @@
 // Write a Java program that reads N integers into an array and finds the largest element of the array.
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 public class task02 {
     public static void main(String[] args) {

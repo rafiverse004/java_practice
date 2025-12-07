@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practice4
+public class factorialOfN
 {
     public static void factorial(int num){
         if(num<0){

@@ -1,6 +1,5 @@
 //Write a Java program that asks the user to input a string. Count and print the number of vowels and consonants in that string.
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 public class task05 {
     public static void main(String[] args){

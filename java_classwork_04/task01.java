@@ -1,7 +1,6 @@
 // Write a Java program that creates an integer array based on the size given by the user.
 // Then take user input to fill the array and finally print the array elements.
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 public class task01 {
     public static void main(String[] args) {

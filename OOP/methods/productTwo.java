@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practice3
+public class productTwo
 {
     public static int productOfTwo(int a, int b){
         return a * b;

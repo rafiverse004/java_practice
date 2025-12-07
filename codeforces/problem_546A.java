@@ -15,5 +15,6 @@ public class problem_546A{
         }
         int need = total - n;
         System.out.println(need > 0 ? need : 0);
+        scanf.close();
     }
 }

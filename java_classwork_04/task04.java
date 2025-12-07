@@ -1,6 +1,5 @@
 //Write a Java program that takes a full sentence from the user and prints it.
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 public class task04 {
     public static void main(String[] args) {

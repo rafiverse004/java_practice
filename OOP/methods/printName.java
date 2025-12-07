@@ -1,6 +1,5 @@
 import java.util.Scanner;
-public class practice1
-{
+public class printName {
     public static void printMyName(String name){
         System.out.println(name);
         return;

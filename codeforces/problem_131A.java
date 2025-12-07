@@ -19,5 +19,6 @@ public class problem_131A {
         }
 
         System.out.println(sb.toString());
+        sc.close();
     }
 }

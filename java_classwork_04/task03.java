@@ -1,7 +1,6 @@
 // Write a Java program that reads N integers into an array and then takes another integer as search key.
 // The program should print whether the number is found or not found in the array.
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 public class task03 {
     public static void main(String[] args) {

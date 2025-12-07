@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class practice2
+public class sumTwo
 {
     public static int sumOfTwo(int a, int b){
         int sum = a + b;
