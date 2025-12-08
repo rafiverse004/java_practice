@@ -1,4 +1,4 @@
-public class Tester3 {
+public class tester3 {
     public static class Employee {
         String name;
         double salary;
@@ -21,29 +21,29 @@ public class Tester3 {
         }
 
         void promoteEmployee(String newDesignation) {
-            switch (newDesignation.toLowerCase()) {
-                case "senior":
-                    this.salary += 25000;
-                    this.designation = "senior";
-                    break;
-                case "lead":
-                    this.salary += 50000;
-                    this.designation = "lead";
-                    break;
-                case "manager":
-                    this.salary += 75000;
-                    this.designation = "manager";
-                    break;
-                default:
-                    break;
-            }
+        String nd = newDesignation.toLowerCase();
+
+        if (nd.equals("senior")) {
+            this.salary += 25000;
+            this.designation = "senior";
+        } else if (nd.equals("lead")) {
+            this.salary += 50000;
+            this.designation = "lead";
+        } else if (nd.equals("manager")) {
+            this.salary += 75000;
+            this.designation = "manager";
+        } else {
+            System.out.println("Unknown promotion!");
+            return;
+        }
+
             System.out.println("Employee Name: " + name);
             System.out.printf("New Salary: %.1f Tk\n", salary);
         }
-        
+
         void displayInfo() {
             System.out.println("Employee Name: " + name);
-            System.out.printf("Employee Salary: %.1f Tk\n", salary);
+            System.out.printf("Employee Salary: %.1f Tk\n" , salary);
             System.out.println("Employee Designation: " + designation);
         }
 
