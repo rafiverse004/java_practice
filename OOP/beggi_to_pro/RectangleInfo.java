@@ -1,4 +1,5 @@
 // Build a Rectangle class with methods for area/perimeter.
+// Class design, methods, basic calculations.
 
 import java.util.Scanner;
 

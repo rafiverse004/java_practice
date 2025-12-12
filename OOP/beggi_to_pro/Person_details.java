@@ -1,4 +1,6 @@
-// 1.Create a Person class with private fields, getters/setters, and a constructor.
+// Create a Person class with private fields, getters/setters, and a constructor.
+// Encapsulation (private fields, getters/setters), constructors.
+
 import java.util.Scanner;
 
 class Person {

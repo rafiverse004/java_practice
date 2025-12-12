@@ -1,4 +1,5 @@
 // Create a Student class and override toString.
+// Overriding toString(), customizing object representation.
 
 class studentInfo {
     private String name;

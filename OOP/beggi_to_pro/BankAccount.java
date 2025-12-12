@@ -1,4 +1,6 @@
 // Create a simple BankAccount with deposit/withdraw and balance validation.
+// Methods, data validation, state management.
+
 import java.util.Scanner;
 
 class Account {
