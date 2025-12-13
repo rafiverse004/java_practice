@@ -10,25 +10,3 @@ public class task15 {
         scanf.close();
     }
 }
-
-
-// BEGINNER
-// 1.Create a Person class with private fields, getters/setters, and a constructor.
-// 2.Create a simple BankAccount with deposit/withdraw and balance validation.
-// 3.Create a Student class and override toString.
-// 4.Build a Rectangle class with methods for area/perimeter.
-// 5.Implement a basic interface Printable and a class Document that implements it.
-
-// INTERMEDIATE
-// 6. Build an Animal hierarchy (abstract Animal → Dog/Cat). Add abstract methods and overrides.
-// 7. Implement a Library system with composition: Library holds a List<Book>. Add borrow/return logic.
-// 8. Create a Shape interface and classes Circle/Square implementing it. Add polymorphic area calculations.
-// 9. Implement a basic Inventory system using encapsulation and ArrayList.
-// 10. Create a Singleton ConfigManager.
-
-// PRO
-// 11. Build a full Employee hierarchy with interface Payable, abstract base, and polymorphic salary calculation.
-// 12. Implement a plugin architecture: define Plugin interface; implement multiple plugins; load and execute them polymorphically.
-// 13. Build a mini game engine: Entity (abstract), Player/NPC classes, Updatable interface, and event dispatching.
-// 14. Implement a custom Collection class with iterator support (implement Iterable).
-// 15. Design a multi-layered domain model (e.g., Banking): Accounts, Transactions, Services. Apply OOP patterns (Factory, Strategy).
