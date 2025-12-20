@@ -1,0 +1,89 @@
+Recursion means:
+
+    “Solve a small part, then let the function solve the rest.”
+
+
+What recursion really is:
+
+    A function uses itself to solve a problem one step at a time.
+    Not magic. Just repetition with memory.
+    Every recursion has exactly 3 parts
+
+
+
+
+
+returnType functionName(parameters) {
+    // 1. Base case: stop recursion
+    if (baseCondition) {
+        return baseValue;
+    }
+
+    // 2. Recursive case: function calls itself
+    return functionName(smallerOrSimplerParameter);
+}
+
+
+
+
+
+1. The problem
+
+    What are you trying to reduce?
+    Example:
+    “Sum numbers from 1 to n”
+
+
+2. Base case (stop condition)
+
+    The moment where nothing is left to solve.
+    If this is wrong → infinite loop.
+
+    Logical form:
+    “If the problem is already solved, stop.”
+
+    Example:
+    When current number is greater than n → stop.
+
+
+3. Recursive step (reduction)
+
+    Turn a big problem into a smaller version of itself.
+
+    Logical form:
+    Solve one piece, then ask the function to solve the rest.
+
+    Example:
+    Add the current number, then ask for the sum of the remaining numbers.
+
+
+The golden rule (memorize this)
+
+    Each recursive call must move closer to the base case.
+    No progress = crash.
+    How the thinking works (call stack)
+
+    Example goal:
+    Sum 1 to 3
+
+
+You think like this:
+    Sum(1..3)
+    1 + Sum(2..3)
+    2 + Sum(3..3)
+    3 + Sum(4..3) → stop
+    Now unwind:
+    return 3
+    return 2 + 3 = 5
+    return 1 + 5 = 6
+    That’s recursion.
+
+
+The correct mental checklist:
+
+    Before writing recursive code, answer:
+    What is the smallest case?
+    What changes every call?
+    How does this move toward stopping?
+    What does each call do exactly once?
+    If you can’t answer these, don’t write recursion.
