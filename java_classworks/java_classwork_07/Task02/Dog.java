@@ -1,13 +1,18 @@
 public class Dog extends Animal {
-    String dogType;
+    String breed;
     
-    public Dog(String name, int age, String color, String dogType){
-        super(dogType, age, dogType);
-        this.dogType = dogType;
+    public Dog(String name, int age, String color, String breed){
+        super(name, age, color);
+        this.breed = breed;
+    }
+
+    @Override
+    public String info() {
+        return "Name: " + name + "\nAge: " + age + "\nColor:" + color+ "\nBreed: " + breed + "\n";
     }
 
     @Override
     public void makeSound() {
-        System.out.println(dogType + " makes a sound");
+        System.out.println(color + " color " + name + " is barking\n");
     }
 }
