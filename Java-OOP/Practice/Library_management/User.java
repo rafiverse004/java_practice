@@ -37,11 +37,19 @@ public class User {
     public void printDetails(){
         System.out.println("Name: " + name);
         System.out.println("Id: " + id);
-        System.out.println(getBorrowedBooks());
+        System.out.println("Borrowed books: ");
+        for (Book b : borrowedBooks) {
+            System.out.println("- " + b.getTitle());
+        }
+
     }
 
     @Override
     public String toString() {
         return "ID: " + id + ", Name: " + name + ", Borrowed: " + borrowedBooks;
+    }
+
+    public String getName() {
+        return name;
     }
 }
